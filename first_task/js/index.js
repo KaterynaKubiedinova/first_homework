@@ -10,8 +10,8 @@ if (isFinite(firstValue) && isFinite(secondValue)) {
     firstValue = Math.floor(firstValue / secondValue);
   }
 
-  result = +arrayWithRemainders.reverse().join("");
+  result = +arrayWithRemainders.reverse().join('');
   console.log(result);
 } else {
-  console.log("Некорректный ввод!");
+  console.log('Некорректный ввод!');
 }
